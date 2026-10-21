@@ -7,6 +7,13 @@ name = "deepfake-detector"
 version = "0.1.0"
 description = "Lightweight, explainable deepfake detection for images and video"
 requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+deepfake-detector = "deepfake_detector.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
