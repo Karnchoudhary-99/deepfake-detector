@@ -12,7 +12,7 @@ black-box verdicts.
 - [x] Artifact features: frequency spectra, blending boundaries, temporal flicker
 - [x] CLI + demo (image and short video)
 - [x] Classifier + calibrated scoring with explanations
-- [ ] Tests on real + synthetic samples, README, then public
+- [x] Tests on synthetic samples (real deepfakes deliberately not bundled: licensing + consent), README, then public
 
 ## Usage
 
